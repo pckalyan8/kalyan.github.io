@@ -1,11 +1,12 @@
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'kap-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: 'kap-code',
+  templateUrl: './code.component.html',
+  styleUrls: ['./code.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AppComponent {
+export class CodeComponent {
+
 }

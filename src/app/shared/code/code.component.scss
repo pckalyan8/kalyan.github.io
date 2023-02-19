@@ -1,0 +1,15 @@
+$light-text-color: #{var(--light-text-color)};
+$border-color: #{var(--light-border-color)};
+$border-style: #{var(--default-border-style)};
+$border-width: #{var(--default-border-width)};
+
+.kap-code {
+    display: inline-block;
+    font-size: 0.875rem;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: $border-width $border-style $border-color;
+    background-color: #50577A;
+    color: $light-text-color;
+}

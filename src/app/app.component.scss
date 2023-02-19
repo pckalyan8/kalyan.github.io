@@ -1,3 +1,42 @@
+$light-text-color: #{var(--light-text-color)};
+$border-color: #{var(--light-border-color)};
+$border-style: #{var(--default-border-style)};
+$border-width: #{var(--default-border-width)};
+
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    // padding: 0;
+}
+
+h1,
+h2 {
+    font-size: 2.4rem;
+}
+
+h3,
+h4 {
+    font-size: 1.6rem;
+}
+
+h5,
+h6 {
+    font-size: 1.2rem;
+}
+
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.dark {
+    background-color: #404258;
+    color: $light-text-color;
+}
+
+.kap-header {
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: $border-color;
 }

@@ -1,0 +1,55 @@
+<div class="container">
+    <h4>Installation</h4>
+    <ul>
+        <li>Install Node and NPM</li>
+        <li>Install Angular CLI</li>
+        <li>Run <kap-code>ng new project-name</kap-code></li>
+        <li>Go to project directory</li>
+        <li>Run <kap-code>ng serve</kap-code></li>
+        <li>Adding bootstrap using cli: <kap-code>npm install --save bootstrap</kap-code></li>
+    </ul>
+    <h4>Creating Component</h4>
+    <ul>
+        <li>Run <kap-code>ng g c component-name</kap-code> to create a component</li>
+        <li>When using angular cli for creating component it declares the component in module file by default. <br>
+            If created manually add it to declartions in NgModule file
+        </li>
+    </ul>
+
+    <h4>Creating a module</h4>
+    <ul>
+        <li>Run <kap-code>ng g m module-name</kap-code> to create a module</li>
+        <li>To create a component inside a module use <kap-code>ng g c module-name/component-name</kap-code> </li>
+    </ul>
+
+    <h4>Data Binding</h4>
+    <ul>
+        <li>String interpolation</li>
+        <li>Property binding</li>
+        <li>Event binding</li>
+        <li>Two way data binding</li>
+    </ul>
+
+    <h4>Directives</h4>
+    <p>Used to add instructions to DOM</p>
+    <ul>
+        <li>Built-in directives
+            <ol>
+                <li>*ngIf</li>
+                <li>[ngStyle]</li>
+                <li>[ngClass]</li>
+                <li>*ngFor</li>
+                <li>*ngSwitch</li>
+            </ol>
+        </li>
+        <li>Structural directives - changes DOM structure</li>
+    </ul>
+    <p>Look into how to use @HostListener, @HostBinding, Renderer2, ViewConainerRef along with directives</p>
+
+    <h4>Services and Dependency injection</h4>
+    <ul>
+        <li><kap-code>@Injectable</kap-code></li>
+        <li>Add in providers</li>
+        <li>Look into how to inject service inside another service</li>
+    </ul>
+</div>
