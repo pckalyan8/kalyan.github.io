@@ -8,7 +8,7 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "pck",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -96,6 +96,11 @@
           }
         }
       }
+    }
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
     }
   },
   "cli": {
